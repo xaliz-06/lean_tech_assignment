@@ -1,0 +1,138 @@
+.report_tab_container {
+  max-width: 26.875rem;
+  border-radius: 6px;
+  padding: 1.5rem 1rem;
+  gap: 2rem;
+  background-color: #f8f8f8;
+  -webkit-box-shadow: -2px 4px 16px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: -2px 4px 16px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: -2px 4px 16px 0px rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #4d4d4d;
+}
+
+.special {
+  color: #000;
+}
+
+hr {
+  width: 90%;
+  border: 2px solid #ccc;
+  margin: auto;
+}
+
+.input_form {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.select_section,
+.detail_textbox,
+.email_box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tab_label {
+  color: #4d4d4d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+}
+
+.section_select_dropdown {
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  gap: 0.5rem;
+  background-color: #e0e0e0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  color: #333;
+}
+
+.describe_text {
+  width: 100%;
+  height: 4.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  color: #808080;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  resize: none;
+  overflow-y: scroll;
+}
+
+.email_input {
+  border: 1.5px solid #b3b3b3;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  color: #0f0f0f;
+}
+
+.submit_actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.submit_btn {
+  border-radius: 0.25rem;
+  border: none;
+  padding: 10px 20px;
+  gap: 0.5rem;
+  background-color: #0f0f0f;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  color: #f8f8f8;
+  transition: all 0.3s ease-in-out;
+}
+
+.submit_btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #000;
+}
+
+.error {
+  color: red;
+}
+
+.thanks_msg {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 27px;
+  text-align: center;
+  color: #0f0f0f;
+}

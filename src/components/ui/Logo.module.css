@@ -1,0 +1,16 @@
+.logo_container {
+  padding: 1.6rem 1.438rem;
+}
+
+.logo_text {
+  color: #f8f8f8;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.538rem;
+}
+
+.logo_black_text {
+  background-color: #f8f8f8;
+  padding: 3.59px;
+  color: #0f0f0f;
+}

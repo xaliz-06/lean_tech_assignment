@@ -1,0 +1,48 @@
+.answers_section {
+  margin-top: 2rem;
+  position: sticky;
+}
+
+.answers_actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #f8f8f8;
+  font-family: "Inter", sans-serif;
+}
+
+.answer_headers {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.answers_category_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.sort_by {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  padding-right: 0.5rem;
+}
+
+.category_options {
+  padding: 0.5rem 1rem;
+  gap: 10px;
+  border: 6px;
+  background-color: #f8f8f8;
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.answers_container {
+  margin-top: 2rem;
+}

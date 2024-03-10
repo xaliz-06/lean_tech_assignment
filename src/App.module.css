@@ -1,0 +1,56 @@
+.root_page_content {
+  margin: 2rem 3rem;
+}
+
+.back_container {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.back_container i {
+  color: #d9d9d9;
+  font-size: 2.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.back_container i:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.back_link {
+  text-decoration: none;
+  color: #f8f8f8;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.375rem;
+  display: inline-block;
+  position: relative;
+}
+
+.back_link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.back_link:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.main_content {
+  margin: 2rem auto;
+  width: 60%;
+}

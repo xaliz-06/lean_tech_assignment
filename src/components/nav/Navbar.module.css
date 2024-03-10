@@ -1,0 +1,63 @@
+.navbar_container {
+  padding: 0.25rem 1.25rem;
+  background-color: #0f0f0f;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.nav_actions_container,
+.nav_actions {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+}
+
+.action_container {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  padding: 1rem 1.25rem;
+  align-items: center;
+  justify-content: center;
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 1.5rem;
+}
+
+.action_name_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.action_container i {
+  padding-top: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.action_container:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.profile_img_container {
+  padding: 1rem 1.25rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profile_img:hover {
+  cursor: pointer;
+}
