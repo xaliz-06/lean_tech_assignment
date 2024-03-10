@@ -93,3 +93,49 @@
   font-size: 1rem;
   line-height: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .question_card_container {
+    padding: 0.75rem 1.25rem;
+    gap: 1rem;
+  }
+
+  .question_tags {
+    gap: 10px;
+  }
+
+  .question_tag {
+    padding: 0.25rem 0.5rem;
+    gap: 5px;
+  }
+
+  .tag_text {
+    font-size: 1rem;
+  }
+
+  .question_badge {
+    font-size: 0.75rem;
+  }
+
+  .question_content {
+    gap: 0.75rem;
+  }
+
+  .question_title_text {
+    font-weight: 500;
+    color: #0f0f0f;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .question_body_text {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .views_text,
+  .instruction_text {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}

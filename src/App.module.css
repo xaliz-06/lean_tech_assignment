@@ -54,3 +54,26 @@
   margin: 2rem auto;
   width: 60%;
 }
+
+@media screen and (max-width: 768px) {
+  .root_page_content {
+    margin: 2rem 1rem;
+  }
+
+  .main_content {
+    width: 100%;
+  }
+
+  .back_container {
+    gap: 0.5rem;
+  }
+
+  .back_container i {
+    font-size: 1.5rem;
+  }
+
+  .back_link {
+    font-size: 1.5rem;
+    line-height: 0.5rem;
+  }
+}

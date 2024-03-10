@@ -8,6 +8,11 @@ import give_suggestion_btn from "./assets/Suggestion.svg";
 import share_feedback_btn from "./assets/ShareFeedback.svg";
 import report_an_issue from "./assets/ReportIssue.svg";
 
+import contact_us_btn_mobile from "./assets/contact_us_mobile.png";
+import give_suggestion_btn_mobile from "./assets/suggestion_mobile.png";
+import share_feedback_btn_mobile from "./assets/feedback_mobile.png";
+import report_an_issue_mobile from "./assets/report_mobile.png";
+
 // The FAB options are configurable page to page
 
 // As in this assignment, we are given the
@@ -34,21 +39,25 @@ const options = [
     id: 1,
     name: "Contact Us",
     btn: contact_us_btn,
+    btn_mobile: contact_us_btn_mobile,
   },
   {
     id: 2,
     name: "Give Suggestion",
     btn: give_suggestion_btn,
+    btn_mobile: give_suggestion_btn_mobile,
   },
   {
     id: 3,
     name: "Share Feedback",
     btn: share_feedback_btn,
+    btn_mobile: share_feedback_btn_mobile,
   },
   {
     id: 4,
     name: "Report an Issue",
     btn: report_an_issue,
+    btn_mobile: report_an_issue_mobile,
   },
 ];
 

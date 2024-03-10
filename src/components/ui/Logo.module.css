@@ -14,3 +14,13 @@
   padding: 3.59px;
   color: #0f0f0f;
 }
+
+@media screen and (max-width: 768px) {
+  .logo_container {
+    padding: 1.5rem 0.75rem;
+  }
+
+  .logo_text {
+    font-size: 1.2rem;
+  }
+}

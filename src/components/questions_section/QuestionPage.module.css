@@ -46,3 +46,19 @@
 .answers_container {
   margin-top: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .answer_headers {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .category_options {
+    padding: 0rem 0.75rem;
+    font-size: 1rem;
+  }
+
+  .answers_container {
+    margin-top: 2rem;
+  }
+}

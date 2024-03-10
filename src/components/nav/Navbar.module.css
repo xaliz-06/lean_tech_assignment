@@ -61,3 +61,22 @@
 .profile_img:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .navbar_container {
+    padding: 0.25rem 0.75rem;
+  }
+
+  .nav_actions_container,
+  .nav_actions {
+    gap: 0.5rem;
+  }
+
+  .nav_actions {
+    display: none;
+  }
+
+  .profile_img_container {
+    padding: 1rem 0.75rem;
+  }
+}
