@@ -34,6 +34,8 @@ import report_an_issue_mobile from "./assets/report_mobile.png";
 // options (which in a backend-application may
 // come as a response)
 
+// options
+
 const options = [
   {
     id: 1,
